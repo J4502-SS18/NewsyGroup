@@ -20,7 +20,18 @@ p {
 	text-align: right;
 	font-weight: bold;
 }
-#Title {
+.header {
+	color:white;
+  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+	background-color: #41a5f0;
+	text-align: center;
+}
+.caption{
+	color: #ff7800;
+	font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+	font-style: italic;
+}
+#title {
 	text-align: right;
 }
 h1 {
