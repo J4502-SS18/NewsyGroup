@@ -6,6 +6,14 @@ p {
 	background-color: white;
 }
 
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 #nav {
 	color: #666666;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
