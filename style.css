@@ -34,10 +34,22 @@ nav ul {
 	background-color: #41a5f0;
 	text-align: center;
 }
-.caption{
+.quote{
 	color: #ff7800;
 	font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
+}
+.name {
+	color:white;
+  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+	font-size: 16pt;
+	background-color: #41a5f0;
+	text-align: right;
+	font-weight: bold;
+}
+.jobtitle {
+	  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+		text-align: right;
 }
 #title {
 	text-align: right;
@@ -54,4 +66,19 @@ h1 {
 #nav {
     padding: 0;
 	  list-style-type: none;
+}
+
+ul {
+	padding:0;
+	list-style-type: none;
+	font-style: "Avenir", "Helvetica Neue", sans-serif;
+	font-size: 8pt;
+}
+
+.footer {
+	background-color: #f9f9f9;
+	font-style: "Avenir", "Helvetica Neue", sans-serif;
+	font-size: 8pt;
+	text-align: center;
+
 }
