@@ -12,6 +12,7 @@ nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	font-size: 12pt;
 }
 
 #nav {
@@ -19,6 +20,7 @@ nav ul {
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	background-color: white;
 	font-weight: bold;
+	font-size: 20pt;
 }
 #nameheader{
 	color:white;
