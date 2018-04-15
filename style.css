@@ -4,6 +4,7 @@ p {
 	color: #666666;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	background-color: white;
+	text-decoration: none;
 }
 
 nav ul {
@@ -14,15 +15,17 @@ nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	font-size: 15pt;
+	font-size: 10pt;
 }
 
-#nav {
-	color: #666666;
+#nav a:link, #nav a:visited{
+	display: block;
+	text-decoration: none;
+	color: black;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	background-color: white;
 	font-weight: bold;
-	font-size: 20pt;
+	font-size: 13pt;
 }
 #nameheader{
 	color:white;
@@ -31,6 +34,7 @@ nav ul {
 	background-color: #41a5f0;
 	text-align: right;
 	font-weight: bold;
+	text-decoration: none;
 }
 .header {
 	color:#333333;
@@ -56,6 +60,7 @@ nav ul {
 }
 #title {
 	text-align: right;
+		text-decoration: none;
 }
 h1 {
     font-family: Georgia, "Times New Roman", serif;
@@ -64,11 +69,13 @@ h1 {
 #container{
     width: 95%;
     margin: 0 auto;
+		text-decoration: none;
 }
 
 #nav {
     padding: 0;
 	  list-style-type: none;
+		text-decoration: none;
 }
 
 ul {
@@ -76,12 +83,14 @@ ul {
 	list-style-type: none;
 	font-style: "Avenir", "Helvetica Neue", sans-serif;
 	font-size: 8pt;
+	text-decoration: none;
 }
 
 .footer {
 	background-color: #f9f9f9;
 	font-style: "Avenir", "Helvetica Neue", sans-serif;
-	font-size: 8pt;
+	font-size: 10pt;
 	text-align: center;
-
+	text-decoration: none;
+	color: black;
 }
