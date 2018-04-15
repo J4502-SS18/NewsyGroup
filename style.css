@@ -51,12 +51,13 @@ nav ul {
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	font-size: 16pt;
 	background-color: #41a5f0;
-	text-align: right;
+	text-align: left;
 	font-weight: bold;
+	padding: 10px;
 }
 .jobtitle {
 	  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
-		text-align: right;
+		text-align: left;
 }
 #title {
 	text-align: right;
@@ -77,6 +78,8 @@ h1 {
 	  list-style-type: none;
 		text-decoration: none;
 }
+
+
 
 ul {
 	padding:0;
