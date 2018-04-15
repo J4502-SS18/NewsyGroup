@@ -56,18 +56,25 @@ nav ul {
 	color: #ff7800;
 	font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	font-style: italic;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .name {
 	color:white;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	font-size: 16pt;
 	background-color: #41a5f0;
-	text-align: right;
+	text-align: left;
 	font-weight: bold;
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .jobtitle {
 	  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
-		text-align: right;
+		text-align: left;
+		margin-left: 0px;
+		margin-right: 0px;
 }
 #title {
 	text-align: right;
@@ -88,6 +95,8 @@ h1 {
 	  list-style-type: none;
 		text-decoration: none;
 }
+
+
 
 ul {
 	padding:0;
