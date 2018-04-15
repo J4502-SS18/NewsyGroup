@@ -42,9 +42,13 @@ nav ul {
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	font-size: 24pt;
 	background-color: #41a5f0;
-	text-align: right;
+	text-align: center;
 	font-weight: bold;
 	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 0px;
+	margin-right: 1000px;
 }
 .header {
 	color:white;
@@ -77,9 +81,19 @@ nav ul {
 		margin-left: 0px;
 		margin-right: 0px;
 }
+
+.internpic {
+	border: 2px solid #333333;
+}
+
+.profilepic {
+	float: left;
+}
+
 #title {
-	text-align: right;
+	text-align: left;
 		text-decoration: none;
+		margin-left: 0px;
 }
 h1 {
     font-family: Georgia, "Times New Roman", serif;
