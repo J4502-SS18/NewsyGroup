@@ -16,7 +16,6 @@ p{
 img{
 	text-align: center;
 }
-
 nav ul {
 	color: black;
 	font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
@@ -24,7 +23,7 @@ nav ul {
 	list-style-type: none;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content:space-around;
 	font-size: 10pt;
 }
 
@@ -35,7 +34,7 @@ nav ul {
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	background-color: white;
 	font-weight: bold;
-	font-size: 13pt;
+	font-size: 11pt;
 }
 #nameheader{
 	color:white;
@@ -84,6 +83,7 @@ nav ul {
 
 .internpic {
 	border: 2px solid #333333;
+
 }
 
 .profilepic {
@@ -141,7 +141,9 @@ text-decoration:none;
 	font-size: 10pt;
 	text-align: center;
 	color: black;
+	font-weight: bold;
 }
+
 #footer a:link, #footer a:visited{
 	display: column;
 	background-color: #f9f9f9;
@@ -152,4 +154,44 @@ text-decoration:none;
 	text-decoration: none;
 	color: black;
 	text-decoration: none;
+}
+@media screen and (min-width:500px){
+.navigation{
+ flex-flow: row;
+ justify-content: flex-end;
+}
+.navigation a{
+	border: none;
+}
+article{
+	display: grid;
+	grid-template-columns: 200px 1fr 1fr;
+	grid-gap: 20px;
+	grid-template-areas:
+	"a b b"
+	"c c c"
+	". d ."
+	"e e e"
+	"f f f";
+}
+.logo{
+	grid-area:a;
+}
+
+.navigation{
+	grid-area:b;
+}
+.header{
+	grid-area:c
+}
+.section1{
+	grid-area:d;
+}
+.image{
+	grid-area:e;
+}
+.footer{
+	grid-area:f;
+}
+
 }
