@@ -6,14 +6,18 @@
 	<title>	Janice Doe's portfolio </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="interns.css" rel="stylesheet">
 
 </head>
 
 <body>
 <!--This is a comment. It won't show up in your browser, only in the page source-->
-<a href="https://www.newsy.com"><img src="newsylogo.png" alt="Newsy Logo" width="100px" />
-  </a>
+<article>
+<section class="logo">
+<a href="https://www.newsy.com"><img src="newsylogo.png" alt="Newsy Logo" width="100px" /></a>
+</section>
+
+<section class="navigation">
 	<nav id="nav">
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -22,18 +26,38 @@
 			<li><a href="apply.html">Apply</a></li>
 		</ul>
 	</nav>
-<p id="nameheader">Janice Doe</p>
-<p id="title"> Video editor </p>
-<img class="profilepic" src="intern_2.png" alt="Photo of Janice Doe" width="350px" />
+</section>
+</article>
+
+<article>
+<section class="nameheader">
+<p id="nameheader">Janice Doe/Video editor </p>
+</section>
+
+
+
+<section class="image">
+<img class="profilepic" src="intern_2.png" alt="Photo of Janice Doe" width="100%" />
+</section>
+
+<section class="twitterlogo">
 <a href="https://www.twitter.com"><img src="twitterlogo.png" alt="Twitter logo" width="50px" />
 </a>
+</section>
+
+<section class="body">
 <p id="body"> Janice Doe is a sophomore at the University of Missouri. She is majoring in strategic communication and has a special interest in visual representation of products. Janice has worked on projects for Newsy on topics such as nuclear missile testing, school shootings, and Time's Up. She hopes to pursue a career in video editing after she graduates in May 2020. Her Newsy clips can be found below.
 </p>
+</section>
 
+<section class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BhFHouI2j7c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+<section class="caption">
 <p class="caption"> For this video, Janice wrote the script and edited the footage. </p>
+</section>
 
-
+<section class="footer">
 <nav id="footer">
 <ul class="footer">
 
@@ -47,7 +71,8 @@
 </ul>
 </nav>
 <p class="footer"> Newsy is an E.W. Scripps Company Brand </p>
-
+</section>
+</article>
 </body>
 
 </html>

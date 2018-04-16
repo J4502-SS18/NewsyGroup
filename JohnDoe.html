@@ -6,14 +6,18 @@
 	<title>	John Doe's portfolio </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="interns.css" rel="stylesheet">
 
 </head>
 
 <body>
 <!--This is a comment. It won't show up in your browser, only in the page source-->
-<a href="https://www.newsy.com"><img src="newsylogo.png" alt="Newsy Logo" width="100px" />
-  </a>
+<article>
+<section class="logo">
+<a href="https://www.newsy.com"><img src="newsylogo.png" alt="Newsy Logo" width="100px" /></a>
+</section>
+
+<section class="navigation">
 	<nav id="nav">
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -22,17 +26,35 @@
 			<li><a href="apply.html">Apply</a></li>
 		</ul>
 	</nav>
-<p id="nameheader">John Doe</p>
-<p id="title"> Anchor </p>
+	</section>
+</article>
+
+<article>
+	<section class="nameheader">
+<p id="nameheader">John Doe/Anchor</p>
+</section>
+
+<section class="image">
 <img class="profilepic" src="intern_3.png" alt="Photo of John Doe" width="350px" />
-<a href="https://www.twitter.com"><img src="twitterlogo.png" alt="Twitter logo" width="50px" />
-</a>
-<p id="body"> John Doe is a junior at the University of Missouri. He is majoring in broadcast journalism and has a special interest in anchoring longform segments. John has worked on projects for Newsy on topics such as NCAA basketball, poverty in Mid-Missouri, and foreign political leaders. He hopes to pursue a career in news anchoring after he graduates in May 2019. His Newsy clips can be found below.
-</p>
+</section>
 
+<section class="twitterlogo">
+<a href="https://www.twitter.com"><img src="twitterlogo.png" alt="Twitter logo" width="50px" /></a>
+</section>
+
+<section class="body">
+<p id="body"> John Doe is a junior at the University of Missouri. He is majoring in broadcast journalism and has a special interest in anchoring longform segments. John has worked on projects for Newsy on topics such as NCAA basketball, poverty in Mid-Missouri, and foreign political leaders. He hopes to pursue a career in news anchoring after he graduates in May 2019. His Newsy clips can be found below.</p>
+</section>
+
+<section class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qkrLfk04FQw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<p class="caption"> For this video, John wrote the script and edited the footage. </p>
+</section>
 
+<section class="caption">
+<p class="caption"> For this video, John wrote the script and edited the footage. </p>
+</section>
+
+<section class="footer">
 <nav id="footer">
 <ul class="footer">
 
@@ -46,6 +68,8 @@
 </ul>
 </nav>
 <p class="footer"> Newsy is an E.W. Scripps Company Brand </p>
+</section>
+</article>
 </body>
 
 </html>
