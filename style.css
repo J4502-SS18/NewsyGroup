@@ -48,6 +48,8 @@ nav ul {
 	text-decoration: none;
 	margin-left: 10px;
 }
+
+
 .header {
 	color:white;
 	background-color:#41a5f0;
@@ -140,10 +142,11 @@ text-decoration:none;
 	text-align: center;
 	color: black;
 	font-weight: bold;
+	display: row;
 }
 
 #footer a:link, #footer a:visited{
-	display: column;
+	display: row;
 	background-color: #f9f9f9;
 	font-style: "Avenir", "Helvetica Neue", sans-serif;
 	font-size: 10pt;
