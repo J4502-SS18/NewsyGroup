@@ -6,37 +6,54 @@
 	<title>	Jane Doe's portfolio </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="interns.css" rel="stylesheet">
 
 </head>
 
 <body>
 <!--This is a comment. It won't show up in your browser, only in the page source-->
-<a href="https://www.newsy.com"><img src="newsylogo.png" alt="Newsy Logo" width="100px" />
-  </a>
+<article>
+<section class="logo">
+<a href="https://www.newsy.com"><img src="newsylogo.png" alt="Newsy Logo" width="100px" /></a>
+</section>
+
+<section class="navigation">
 	<nav id="nav">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="interns.html">Interns</a></li>
-
 			<li><a href="apply.html">Apply</a></li>
 		</ul>
 	</nav>
-<p id="nameheader">Jane Doe</p>
-<p id="title"> Producer </p>
-<img class="profilepic" src="intern_1.png" alt="Photo of Jane Doe" width="350px" />
-<a href="https://www.twitter.com"><img src="twitterlogo.png" alt="Twitter logo" width="50px" />
-</a>
-<p id="body"> Jane Doe is a senior at the University of Missouri. She is majoring in broadcast journalism and has a special interest in covering breaking news. Jane has worked on projects for Newsy on topics such as gun control, food insecurity, and standardized testing. She hopes to pursue a career in video production after she graduates in May 2018. Her Newsy clips can be found below.
-</p>
+</section>
+</article>
 
+<article>
+<section class="nameheader">
+<p id="nameheader">Jane Doe/Producer</p>
+</section>
+
+<section class="image">
+<img class="profilepic" src="intern_1.png" alt="Photo of Jane Doe" width="100%" />
+</section>
+
+<section class="twitterlogo">
+<a href="https://www.twitter.com"><img src="twitterlogo.png" alt="Twitter logo" width="50px" /></a>
+</section>
+<section class="body">
+<p id="body"> Jane Doe is a senior at the University of Missouri. She is majoring in broadcast journalism and has a special interest in covering breaking news. Jane has worked on projects for Newsy on topics such as gun control, food insecurity, and standardized testing. She hopes to pursue a career in video production after she graduates in May 2018. Her Newsy clips can be found below.</p>
+</section>
+
+<section class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yKYpIQZ5foM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+<section class="caption">
 <p class="caption"> For this video, Jane wrote the script and edited the footage. </p>
+</section>
 
-
+<section class="footer">
 <nav id="footer">
 <ul class="footer">
-
 	<a href="https://www.newsy.com/about/"><li> About Newsy </li></a>
 	<a href="https://www.newsy.com/careers/"><li> Careers </li></a>
 	<a href="https://www.newsy.com/register/"><li> Newsletter </li></a>
@@ -47,7 +64,8 @@
 </ul>
 </nav>
 <p class="footer"> Newsy is an E.W. Scripps Company Brand </p>
-
+</section>
+</article>
 </body>
 
 </html>
