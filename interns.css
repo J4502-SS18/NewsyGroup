@@ -35,12 +35,21 @@ nav ul {
 #nameheader{
 	color: #333333;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
-	font-size: 24pt;
+	font-size: 15pt;
 	background-color: none;
-	text-align: left;
+	text-align:left;
 	font-weight: bold;
 	text-decoration: none;
 	margin-left: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.caption{
+	color: #666666;
+  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+	font-size: 15pt;
+	text-align: center;
+	text-decoration: none;
 	margin-top: auto;
 	margin-bottom: auto;
 }
@@ -83,12 +92,6 @@ nav ul {
 	padding: 10px;
 }
 
-#title {
-	text-align: left;
-		text-decoration: none;
-		margin-left: 10px;
-		margin-bottom: auto;
-}
 h1 {
     font-family: Georgia, "Times New Roman", serif;
 }
@@ -126,7 +129,12 @@ font-weight: bold;
 font-size: 20pt;
 text-decoration:none;
 }
-
+.video{
+	text-align: center;
+	text-decoration: none;
+	margin-top: auto;
+	margin-bottom: auto;
+}
 .footer {
 	background-color: #f9f9f9;
 	font-style: "Avenir", "Helvetica Neue", sans-serif;
@@ -158,11 +166,14 @@ text-decoration:none;
 
 article{
 	display: grid;
-	grid-template-columns: 200px 1fr 1fr;
-	grid-gap: 20px;
+	grid-template-columns: 300px 1fr 1fr;
+	grid-gap: 5px;
 	grid-template-areas:
 	"a b b"
-	"c c c";
+	"e c c"
+	"d j j"
+	"h i i"
+	"g g g";
 }
 .logo{
 	grid-area:a;
@@ -171,17 +182,26 @@ article{
 .navigation{
 	grid-area:b;
 }
-.header{
-	grid-area:c
-}
-.section1{
-	grid-area:d;
+
+.body{
+	grid-area:c;
 }
 .image{
 	grid-area:e;
 }
-.footer{
-	grid-area:f;
+.nameheader{
+	grid-area:d;
 }
-
+.footer{
+	grid-area:g;
+}
+.twitterlogo{
+	grid-area:h;
+}
+.video{
+	grid-area:i;
+}
+.caption{
+	grid-area:j;
+}
 }
