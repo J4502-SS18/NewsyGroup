@@ -38,7 +38,7 @@ nav ul {
 #nameheader{
 	color: #333333;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
-	font-size: 20pt;
+	font-size: 18pt;
 	background-color: none;
 	text-align: left;
 	font-weight: bold;
@@ -49,10 +49,10 @@ nav ul {
 }
 
 .header {
-	color:#333333;
 	background-color:#41a5f0;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	text-align: center;
+	font-size: 18pt;
 	text-decoration: none;
 	color: white;
 }
@@ -152,6 +152,7 @@ text-decoration:none;
 	color: black;
 	text-decoration: none;
 }
+
 @media screen and (min-width:500px){
 .navigation{
  flex-flow: row;
@@ -160,6 +161,7 @@ text-decoration:none;
 .navigation a{
 	border: none;
 }
+
 
 article{
 	display: grid;
@@ -189,4 +191,28 @@ article{
 	grid-area:f;
 }
 
+<<<<<<< HEAD
+=======
+
+@media screen and (min-width: 700px) {
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    border-top: none;
+  }
+
+
+
+header h1 {
+  order: 1;
+}
+
+nav {
+  order: 2;
+}
+
+>>>>>>> 36736fd230269461f53bcb9160ba37862c068737
 }
