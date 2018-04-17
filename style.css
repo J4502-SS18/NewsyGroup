@@ -35,7 +35,7 @@ nav ul {
 #nameheader{
 	color: #333333;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
-	font-size: 24pt;
+	font-size: 20pt;
 	background-color: none;
 	text-align: left;
 	font-weight: bold;
@@ -45,16 +45,13 @@ nav ul {
 	margin-bottom: auto;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 75544c91dcca719796dd30fcf9ce606b5006913e
 .header {
-	color:white;
+	color:#333333;
 	background-color:#41a5f0;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	text-align: center;
 	text-decoration: none;
+	color: white;
 }
 
 .name {
@@ -166,8 +163,8 @@ article{
 	grid-template-columns: 200px 1fr 1fr;
 	grid-gap: 20px;
 	grid-template-areas:
-	"a b b"
-	"c c c";
+	"a b ."
+	"c . .";
 }
 .logo{
 	grid-area:a;
