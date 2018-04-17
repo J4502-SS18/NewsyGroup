@@ -180,43 +180,6 @@ article{
 	grid-area:f;
 }
 
-}
-
-/* hamburger menu */
-nav ul li {
-		color: black;
-		font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
-		padding: 0;
-		list-style-type: none;
-		display: flex;
-		flex-direction: row;
-		justify-content:space-around;
-		font-size: 10pt;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-    padding: 20px 30px;
-}
-
-header {
-    display: flex;
-    flex-flow: row;
-    background-color: none;
-    margin: 0;
-    padding: 0 10px;
-}
-
-
-
-header h1 {
-  order: 2;
-}
-
-nav ul {
-  display: none;
-}
 
 @media screen and (min-width: 700px) {
 
@@ -228,7 +191,7 @@ nav ul {
     border-top: none;
   }
 
-  
+
 
 header h1 {
   order: 1;
