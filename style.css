@@ -7,23 +7,23 @@ p {
 	text-decoration: none;
 	text-align:center;
 	font-size: 15pt;
-}
-
-p{
 	margin-left:100px;
 	margin-right:100px;
 }
 
-}
+
 #nav a:link, #nav a:visited{
-	display: block;
-	text-decoration: none;
+	display:block;
+	flex-flow: row;
 	color: black;
-  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Avenirn", "Helvetica Neue", Arial, sans-serif;
 	background-color: white;
 	font-weight: bold;
-	font-size: 11pt;
+	font-size: 12pt;
+	text-align: center;
+	text-decoration: none;
 }
+
 #nameheader{
 	color: #333333;
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
@@ -92,18 +92,14 @@ h1 {
 		text-decoration: none;
 }
 
-#nav {
-    padding: 0;
-	  list-style-type: none;
-		text-decoration: none;
-}
 
-ul {
-	padding:0;
-	list-style-type: none;
-	font-style: "Avenir", "Helvetica Neue", sans-serif;
-	font-size: 8pt;
-	text-decoration: none;
+nav ul {
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ font-size: 12pt;
 }
 
 .internpage{
@@ -131,7 +127,7 @@ text-decoration:none;
 }
 
 #footer a:link, #footer a:visited{
-	display: row;
+	display: column;
 	background-color: #f9f9f9;
 	font-style: "Avenir", "Helvetica Neue", sans-serif;
 	font-size: 10pt;
@@ -139,66 +135,4 @@ text-decoration:none;
 	text-align: center;
 	text-decoration: none;
 	color: black;
-	text-decoration: none;
-}
-
-@media screen and (min-width:500px){
-.navigation{
- flex-flow: row;
- justify-content: flex-end;
-}
-.navigation a{
-	border: none;
-}
-
-
-article{
-	display: grid;
-	grid-template-columns: 200px 1fr 1fr;
-	grid-gap: 20px;
-	grid-template-areas:
-	"a b ."
-	"c . .";
-}
-.logo{
-	grid-area:a;
-}
-
-.navigation{
-	grid-area:b;
-}
-.header{
-	grid-area:c
-}
-.section1{
-	grid-area:d;
-}
-.image{
-	grid-area:e;
-}
-.footer{
-	grid-area:f;
-}
-
-
-@media screen and (min-width: 700px) {
-
-  nav ul {
-    display: flex;
-  }
-
-  nav ul li {
-    border-top: none;
-  }
-
-
-
-header h1 {
-  order: 1;
-}
-
-nav {
-  order: 2;
-}
-
 }

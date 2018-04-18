@@ -147,9 +147,11 @@ text-decoration:none;
 	color: black;
 	text-decoration: none;
 }
+
+
 @media screen and (min-width:500px){
 .navigation{
- flex-flow: row;
+ flex-flow: column;
  justify-content: flex-end;
 }
 .navigation a{
@@ -223,19 +225,6 @@ header {
     margin: 0;
     padding: 0 10px;
 }
-
-.menu-trigger {
-  order: 1;
-  font-size: 1.75em;
-  width: 2em;
-}
-
-header h1 {
-  order: 2;
-}
-
-nav ul {
-  display: none;
 }
 
 @media screen and (min-width: 700px) {
