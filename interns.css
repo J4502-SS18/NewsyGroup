@@ -10,8 +10,8 @@ p {
 }
 
 p{
-	margin-left:100px;
-	margin-right:100px;
+	margin-left:30px;
+	margin-right:30px;
 }
 
 nav ul {
@@ -22,6 +22,7 @@ nav ul {
 		display: flex;
 		flex-direction: row;
 		justify-content:space-around;
+
 		font-size: 10pt;
 }
 
@@ -95,6 +96,16 @@ nav ul {
 	padding: 10px;
 }
 
+nav ul {
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ font-size: 12pt;
+}
+
+
 h1 {
     font-family: Georgia, "Times New Roman", serif;
 }
@@ -105,11 +116,6 @@ h1 {
 		text-decoration: none;
 }
 
-#nav {
-    padding: 0;
-	  list-style-type: none;
-		text-decoration: none;
-}
 
 ul {
 	padding:0;
@@ -126,13 +132,18 @@ ul {
 	font-size: 20pt;
 }
 
-#internpage a:link, #internpage a:visited{
-background-color: #41a5f0;
-color: white;
-font-weight: bold;
-font-size: 20pt;
-text-decoration:none;
+#nav a:link, #nav a:visited{
+	display:block;
+	flex-flow: row;
+	color: black;
+  font-family: "Avenirn", "Helvetica Neue", Arial, sans-serif;
+	background-color: white;
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: center;
+	text-decoration: none;
 }
+
 .video{
 	text-align: center;
 	text-decoration: none;
@@ -159,9 +170,54 @@ text-decoration:none;
 	color: black;
 	text-decoration: none;
 }
+@media screen and (min-width:400px){
+
+article{
+	display: grid;
+	grid-template-columns: 330px 1fr 1fr;
+	grid-gap: 5px;
+	grid-template-areas:
+	"a b b"
+	"e . ."
+	"d h ."
+	"c c c"
+	"j j j"
+	"i i i"
+	"g g g";
+}
+.logo{
+	grid-area:a;
+}
+
+.navigation{
+	grid-area:b;
+}
+
+.body{
+	grid-area:c;
+}
+.image{
+	grid-area:e;
+}
+.nameheader{
+	grid-area:d;
+}
+.footer{
+	grid-area:g;
+}
+.twitterlogo{
+	grid-area:h;
+}
+.video{
+	grid-area:i;
+}
+.caption{
+	grid-area:j;
+}
+}
 
 
-@media screen and (min-width:500px){
+@media screen and (min-width:800px){
 .navigation{
  flex-flow: column;
  justify-content: flex-end;
@@ -211,57 +267,3 @@ article{
 	grid-area:j;
 }
 }
-<<<<<<< HEAD
-
-/* hamburger menu */
-nav ul li {
-		color: black;
-		font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
-		padding: 0;
-		list-style-type: none;
-		display: flex;
-		flex-direction: row;
-		justify-content:space-around;
-		font-size: 10pt;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-    padding: 20px 30px;
-}
-
-header {
-    display: flex;
-    flex-flow: row;
-    background-color: none;
-    margin: 0;
-    padding: 0 10px;
-}
-}
-
-@media screen and (min-width: 700px) {
-
-  nav ul {
-    display: flex;
-  }
-
-  nav ul li {
-    border-top: none;
-  }
-
-  .menu-trigger {
-    display: none;
-  }
-
-header h1 {
-  order: 1;
-}
-
-nav {
-  order: 2;
-}
-
-}
-=======
->>>>>>> 464eae397d755711cff0c930ec4f8aed1dc96792
