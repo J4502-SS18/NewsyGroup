@@ -52,6 +52,35 @@ color:white;
 text-align: center;
 }
 
+.footer  {
+list-style: none;
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+padding: 10px;
+margin: 0;
+}
+
+.final {
+  font-size: 8px;
+  margin-left: 0;
+}
+
+.homepageinterns {
+  display: grid;
+  grid-template-areas:
+  "a b a"
+  "b a b";
+
+}
+
+#Intern_1 {
+  grid-area: a;
+}
+#Intern_2 {
+  grid-area: b;
+}
+
 
 @media screen (max-width 450px) {
 
@@ -59,6 +88,11 @@ text-align: center;
      display: flex;
      flex-flow: row;
      justify-content: space-between;
+   }
+
+   .footer {
+    display: flex;
+     flex-flow: column;
    }
 
 }
