@@ -95,6 +95,15 @@ margin: 0;
 	flex-flow: wrap;
 }
 
+.internimage {
+	display:flex;
+	max-width: 500px;
+}
+
+.nameheader {
+	padding-left: 0;
+}
+
 @media screen and (min-width:450px) {
 
    nav ul {
