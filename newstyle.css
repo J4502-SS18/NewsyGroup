@@ -98,6 +98,7 @@ margin: 0;
 .internimage {
 	display:flex;
 	max-width: 500px;
+	margin-top: 20px;
 }
 
 .nameheader {
@@ -140,7 +141,7 @@ margin: 0;
 .caption {
 	font-size: 10pt;
 	color:black;
-	
+
 }
 
 
