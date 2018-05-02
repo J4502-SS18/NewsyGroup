@@ -181,6 +181,7 @@ font-size: 10pt;
 		 display: flex;
 		 justify-content: flex-end;
 		 padding-right: 10px;
+		 margin-left: 10px;
 	 }
 
 }
