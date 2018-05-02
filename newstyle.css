@@ -67,8 +67,11 @@ margin: 0;
 }
 
 .card p {
-/* styles go here  */
+font-style: Georgia, serif;
+color:black;
+font-size: 10pt;
 }
+
 
 /* .homepageinterns {
   display: grid;
@@ -88,6 +91,11 @@ margin: 0;
 .footer {
  display: flex;
 	flex-flow: column;
+	background-color:#eeeded;
+}
+
+.final {
+	background-color: #eeeded;
 }
 
 .flexinterns {
