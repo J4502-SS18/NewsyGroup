@@ -104,6 +104,46 @@ margin: 0;
 	padding-left: 0;
 }
 
+/* Intern page text/info styling */
+.name {
+	font-family: Georgia, serif;
+	font-size: 18pt;
+	color: white;
+	background-color: #41a5f0;
+}
+
+.uni {
+	color:black;
+	font-size: 10pt;
+}
+
+.hometown {
+	color:black;
+	font-size: 10pt;
+}
+
+.twitter {
+	display:flex;
+	flex-flow: row;
+}
+
+.twittername {
+	font-size: 10pt;
+	color:black;
+}
+
+.internflex {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.caption {
+	font-size: 10pt;
+	color:black;
+	
+}
+
+
 @media screen and (min-width:450px) {
 
    nav ul {
