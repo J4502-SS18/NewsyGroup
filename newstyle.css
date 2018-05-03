@@ -119,7 +119,7 @@ font-size: 10pt;
 }
 
 .newsy_vid {
-	
+
 	display: block;
 	margin: 0 auto;
 }
@@ -179,6 +179,11 @@ background-color: #eeeded;
 	.newsy_vid {
 		width:100%;
 		padding-left: 0;
+	}
+
+	p {
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 }
