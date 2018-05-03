@@ -171,6 +171,15 @@ font-size: 10pt;
 background-color: #eeeded;
 }
 
+#slogan {
+	font-size: 20pt;
+	font-family: "Avenirn" "Helvetica Neue", san-sans-serif;
+	font-style: italic;
+	text-align: center;
+	color:black;
+}
+
+
 @media screen and (max-width:375px) {
 	iframe {
 		width:100%
