@@ -167,9 +167,19 @@ font-size: 10pt;
 
 }
 
+.everythingbutfooter{
+	padding: 20px;
+	padding-bottom: 500px;
+}
+.stickyfooter {
+margin-top:-50px;
+}
+
 .bottomcolor {
 background-color: #eeeded;
+
 }
+
 
 #slogan {
 	font-size: 20pt;
