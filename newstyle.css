@@ -4,9 +4,8 @@ p {
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	background-color: white;
 	text-align:left;
-	font-size: 20pt;
-	margin-left:20px;
-	margin-right:20px;
+	font-size: 15pt;
+
 }
 
 
@@ -104,7 +103,7 @@ font-size: 10pt;
 }
 
 .internimage {
-	display:flex;
+
 	max-width: 500px;
 	margin-top: 20px;
 }
@@ -157,7 +156,7 @@ font-size: 10pt;
 
 }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 .everythingbutfooter{
 	padding: 20px;
 	padding-bottom: 500px;
@@ -198,7 +197,7 @@ background-color: #eeeded;
 
 }
 =======
->>>>>>> 6927ef37383d16196e6990d79ffe55faaee1213b
+/* >>>>>>> 6927ef37383d16196e6990d79ffe55faaee1213b */
 
 @media screen and (min-width:450px) {
 
@@ -244,6 +243,14 @@ background-color: #eeeded;
 
 }
 
+@media screen and (min-width:740px) {
+
+	.nameheader {
+		margin-left: 20px;
+	}
+
+}
+
 @media screen and (min-width:1000px) {
 		.container {
 			max-width: 1000px;
@@ -251,7 +258,7 @@ background-color: #eeeded;
 		}
 
 		.card {
- 		 width: 32%;
+ 		 max-width: 32%;
  		 margin-right: 10px;
  	 }
 }
