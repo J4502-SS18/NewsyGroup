@@ -4,9 +4,9 @@ p {
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
 	background-color: white;
 	text-align:left;
-	font-size: 15pt;
-	/* margin-left:20px;
-	margin-right:20px; */
+	font-size: 20pt;
+	margin-left:20px;
+	margin-right:20px;
 }
 
 
@@ -67,7 +67,7 @@ margin: 0;
 }
 
 .card p {
-font-family: Georgia, serif;
+font-style: Georgia, serif;
 color:black;
 font-size: 10pt;
 }
@@ -98,18 +98,13 @@ font-size: 10pt;
 	background-color: #eeeded;
 }
 
-.final {
-	margin-left: 10px;
-	padding-bottom: 10px;
-}
-
 .flexinterns {
 	display: flex;
 	flex-flow: wrap;
 }
 
 .internimage {
-
+	display:flex;
 	max-width: 500px;
 	margin-top: 20px;
 }
@@ -119,9 +114,8 @@ font-size: 10pt;
 }
 
 .newsy_vid {
-
-	display: block;
-	margin: 0 auto;
+	justify-content: center;
+	padding-left: 25%;
 }
 
 /* Intern page text/info styling */
@@ -130,10 +124,6 @@ font-size: 10pt;
 	font-size: 22pt;
 	color: white;
 	background-color: #41a5f0;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 10px;
 }
 
 .uni {
@@ -167,6 +157,7 @@ font-size: 10pt;
 
 }
 
+<<<<<<< HEAD
 .everythingbutfooter{
 	padding: 20px;
 	padding-bottom: 500px;
@@ -206,6 +197,8 @@ background-color: #eeeded;
 	}
 
 }
+=======
+>>>>>>> 6927ef37383d16196e6990d79ffe55faaee1213b
 
 @media screen and (min-width:450px) {
 
@@ -229,21 +222,8 @@ background-color: #eeeded;
 	 .testnav {
 		 display: flex;
 		 justify-content: flex-end;
-		 /* padding-right: 10px;
-		 margin-left: 10px; */
+		 padding-right: 10px;
 	 }
-
-	 .testnav li {
-		 margin-left:10px;
-	 }
-
-}
-
-@media screen and (min-width:740px) {
-
-	.nameheader p {
-		margin-left: 20px;
-	}
 
 }
 
